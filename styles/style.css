@@ -7,25 +7,34 @@
 
 body {
     font-family: var(--regular-font-family);
+    text-align: center;
+    background-color: #fff;
 }
+
 h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6, {
-    color: white;
+h2, {
+    color: black;
     font-family: var(--heading-font-family);
     font-weight: bold;
+}
+
+h1 {
+    font-size: 90px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 64px;
 }
 
 p {
    font-weight: normal;
    padding-bottom: 15px;
+   font-size: 16px;
 }
 
 .pattern {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     text-align: center;
     padding: 150px 20px;
 }
@@ -34,12 +43,13 @@ p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
+    color: #272142;
 }
 
 .pattern h2 {
     font-family: var(--regular-font-family);
     font-weight: normal;
-    line-height: 3;
+    line-height: 2;
     font-size: 24px;
 }
 
@@ -50,4 +60,36 @@ p {
     font-size: 20px;
     line-height: 25px;
     padding: 15px 20px;
+}
+
+.btn-brand-yogurt {
+    color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px 20px;
+}
+
+.project-heat {
+    padding: 100px 55px;
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .pattern {
+        padding: 75px 10px;
+    }
+
+    .project-yogurt {
+        padding: 0;
+        text-align: center;
+    }
 }
