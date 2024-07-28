@@ -1,13 +1,53 @@
-body {
-    background-color: pink;
+:root {
+    --brand-color: #6c63ff;
+    --primary-color: #f9f7f3;
+    --heading-font-family: "Playfair Display", serif;
+    --regular-font-family: "Poppins", sans-serif;
 }
 
-h1 {
+body {
+    font-family: var(--regular-font-family);
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, {
     color: white;
-    font-family: "Playfair Display", serif;
+    font-family: var(--heading-font-family);
     font-weight: bold;
 }
 
 p {
-    font-family: "M PLUS Rounded 1c", sans-serif;
+   font-weight: normal;
+   padding-bottom: 15px;
+}
+
+.pattern {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.pattern p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.pattern h2 {
+    font-family: var(--regular-font-family);
+    font-weight: normal;
+    line-height: 3;
+    font-size: 24px;
+}
+
+.btn-brand {
+    background: var(--brand-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px 20px;
 }
