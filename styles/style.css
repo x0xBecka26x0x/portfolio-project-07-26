@@ -11,20 +11,19 @@ body {
     background-color: #fff;
 }
 
-h1, 
-h2, {
+h1 {
+    font-size: 90px;
+    line-height: 1.5;
     color: black;
     font-family: var(--heading-font-family);
     font-weight: bold;
 }
 
-h1 {
-    font-size: 90px;
-    line-height: 1.5;
-}
-
 h2 {
     font-size: 64px;
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
 }
 
 p {
