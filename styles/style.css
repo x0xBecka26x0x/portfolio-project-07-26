@@ -1,6 +1,6 @@
 :root {
     --brand-color: #6c63ff;
-    --primary-color: #f9f7f3;
+    --primary-color: #f9f7fe;
     --heading-font-family: "Playfair Display", serif;
     --regular-font-family: "Poppins", sans-serif;
 }
@@ -24,6 +24,10 @@ h2 {
     color: black;
     font-family: var(--heading-font-family);
     font-weight: bold;
+}
+
+h4 {
+    font-size: 36px;
 }
 
 p {
@@ -146,6 +150,55 @@ nav a:hover,
 nav li.active a {
     color: var(--brand-color);
 
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover {
+    color: var(--brand-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--brand-color);
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: var(--brand-color);
+}
+
+footer .btn-branding {
+    background: var(--brand-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 20px;
+}
+
+footer .contact-box {
+    background: var(--primary-color);
+    padding: 25px 100px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
 }
 
 @media (max-width: 960px) {
