@@ -17,6 +17,7 @@ h1 {
     color: black;
     font-family: var(--heading-font-family);
     font-weight: bold;
+    text-align: center;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h2 {
 
 h3 {
     font-size: 55px;
+    text-align: center;
 }
 
 p {
@@ -123,6 +125,11 @@ p {
     max-height: 70px;
 }
 
+.contact-title {
+    text-align: center;
+    margin-right: -500px;
+}
+
 nav {
     padding: 20px 0;
 
@@ -154,6 +161,11 @@ nav li.active a {
 
 footer {
     margin: 50px 0;
+    margin-bottom: 50px;
+}
+
+footer h3 {
+    text-align: center;
 }
 
 footer .email-link a {
@@ -189,7 +201,8 @@ footer .btn-branding {
     color: white;
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 20px;
+    padding: 15px 15px;
+    margin-bottom: 30px;
 }
 
 footer .contact-box {
@@ -200,6 +213,7 @@ footer .contact-box {
 
 footer .contact-box p {
     margin: 0;
+    text-align: center;
 }
 
 @media (max-width: 960px) {
