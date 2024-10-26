@@ -42,6 +42,22 @@ p {
     width: 400px;
 }
 
+.contact-image {
+    width: 400px;
+}
+
+.weather-project {
+    margin-top: 185px;
+}
+
+.dictionary-project {
+    margin-top: 155px;
+}
+
+.poem-project {
+    margin-top: 165px;
+}
+
 .pattern {
     background-color: var(--primary-color);
     text-align: center;
