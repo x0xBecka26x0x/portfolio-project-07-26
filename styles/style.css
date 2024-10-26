@@ -38,6 +38,10 @@ p {
    font-size: 16px;
 }
 
+.profile img{
+    width: 400px;
+}
+
 .pattern {
     background-color: var(--primary-color);
     text-align: center;
