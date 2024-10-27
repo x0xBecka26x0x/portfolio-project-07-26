@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    font-size: 55px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -38,8 +38,9 @@ p {
    font-size: 16px;
 }
 
-.profile img{
-    width: 400px;
+.profile-me {
+    width: 500px;
+    margin-top: 150px;
 }
 
 .contact-image {
@@ -56,6 +57,10 @@ p {
 
 .poem-project {
     margin-top: 165px;
+}
+
+.croissant-page {
+    margin-top: 160px;
 }
 
 .pattern {
