@@ -1,0 +1,337 @@
+:root {
+  --brand-color: #6c63ff;
+  --primary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --regular-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--regular-font-family);
+  text-align: center;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 85px;
+  line-height: 1.5;
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+ font-weight: normal;
+ padding-bottom: 5px;
+ font-size: 20px;
+}
+
+.profile-me {
+  width: 500px;
+  margin-top: 150px;
+}
+
+.contact-image {
+  width: 400px;
+}
+
+.weather-project {
+  margin-top: 190px;
+}
+
+.dictionary-project {
+  margin-top: 160px;
+}
+
+.poem-project {
+  margin-top: 225px;
+}
+
+.croissant-page {
+  margin-top: 160px;
+}
+
+.pattern {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.pattern p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.pattern h2 {
+  font-family: var(--regular-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.btn-brand {
+  background: var(--brand-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 10px 13px;
+}
+
+.btn-brand-yogurt {
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 15px 20px;
+}
+
+.project-heat {
+  padding: 55px 50px;
+}
+
+.forecast-project {
+  margin-top: 110px;
+}
+
+.content-section {
+  padding: 55px 25px;
+  text-align: center;
+}
+
+.content-work {
+  margin: 40px;
+  padding: 60px 60px;
+  text-align: center;
+}
+
+.content-section p {
+  font-size: 18px;
+  font-family: var(--regular-font-family);
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 55px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1;
+  margin: 15px 0;
+  font-family: var(--regular-font-family);
+  font-weight: bold;
+}
+
+.content p{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.about-content {
+  margin: 40px;
+  font-size: 20px;
+}
+
+.codes-logo {
+  max-height: 70px;
+}
+
+.contact-title {
+  text-align: center;
+  margin-right: -500px;
+}
+
+nav {
+  padding: 20px 0;
+
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 45px;
+  margin-left: 15px
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 50ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--brand-color);
+
+}
+
+footer {
+  margin: -20px 0;
+  margin-bottom: 25px;
+}
+
+footer h3 {
+  text-align: center;
+  margin-top: 18px;
+}
+
+footer .email-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer .email-link:hover {
+  color: var(--brand-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--brand-color);
+  background: var(--primary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--brand-color);
+}
+
+footer .btn-branding {
+  background: var(--brand-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 33px;
+  padding: 11px 11px 5px 11px;
+  margin-bottom: 42px;
+  
+}
+
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 5px 95px;
+  margin-top: -20px;
+  border-radius: 20px;
+}
+
+footer .contact-box p {
+  margin: 0;
+  text-align: center;
+}
+
+footer .homepage {
+  margin: -20px 0;
+  margin-bottom: 25px;
+}
+
+footer .homepage h3 {
+  text-align: center;
+  margin-top: 18px;
+}
+
+footer .homepage .email-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer .homepage .email-link:hover {
+  color: var(--brand-color);
+}
+
+footer .homepage .social-links a {
+  margin: 0 20px;
+  color: var(--brand-color);
+  background: var(--primary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .homepage .social-links a:hover {
+  color: white;
+  background: var(--brand-color);
+}
+
+footer .homepage .btn-branding {
+  background: var(--brand-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 33px;
+  padding: 11px 11px 5px 11px;
+  margin-bottom: 42px;
+  
+}
+
+footer .homepage .contact-box {
+  background: var(--primary-color);
+  padding: 5px 95px;
+  margin-top: -20px;
+  border-radius: 20px;
+}
+
+footer .homepage .contact-box p {
+  margin: 0;
+  text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  h1 {
+      font-size: 55px;
+  }
+
+  h2 {
+      font-size: 50px;
+  }
+
+  .pattern {
+      padding: 75px 10px;
+  }
+
+  .project-yogurt {
+      padding: 0;
+      text-align: center;
+  }
+
+  .content-section {
+      text-align: center;
+      padding: 0;
+  }
+}
