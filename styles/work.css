@@ -210,6 +210,7 @@ footer .work .email-link a {
 
 footer .work .email-link:hover {
   color: var(--brand-color);
+  color: #6c63ff;
 }
 
 footer .work .social-links a {
