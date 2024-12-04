@@ -191,7 +191,7 @@ nav li.active a {
 
 footer {
     margin: -20px 0;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 footer h3 {
@@ -240,7 +240,7 @@ footer .btn-branding {
 
 footer .contact-box {
     background: var(--primary-color);
-    padding: 20px 102px;
+    padding: 5px 95px;
     margin-top: -20px;
     border-radius: 20px;
 }
