@@ -189,17 +189,17 @@ nav li.active a {
 
 }
 
-footer {
+footer .contact {
   margin: -20px 0;
   margin-bottom: 25px;
 }
 
-footer h3 {
+footer .contact h3 {
   text-align: center;
   margin-top: 18px;
 }
 
-footer .email-link a {
+footer .contact .email-link a {
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -207,11 +207,11 @@ footer .email-link a {
   margin-bottom: 10px;
 }
 
-footer .email-link:hover {
+footer .contact .email-link:hover {
   color: var(--brand-color);
 }
 
-footer .social-links a {
+footer .contact .social-links a {
   margin: 0 20px;
   color: var(--brand-color);
   background: var(--primary-color);
@@ -221,12 +221,12 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover {
+footer .contact .social-links a:hover {
   color: white;
   background: var(--brand-color);
 }
 
-footer .btn-branding {
+footer .contact .btn-branding {
   background: var(--brand-color);
   border-radius: 4px;
   color: white;
@@ -238,75 +238,14 @@ footer .btn-branding {
   
 }
 
-footer .contact-box {
+footer .contact .contact-box {
   background: var(--primary-color);
   padding: 5px 95px;
   margin-top: -20px;
   border-radius: 20px;
 }
 
-footer .contact-box p {
-  margin: 0;
-  text-align: center;
-}
-
-footer .homepage {
-  margin: -20px 0;
-  margin-bottom: 25px;
-}
-
-footer .homepage h3 {
-  text-align: center;
-  margin-top: 18px;
-}
-
-footer .homepage .email-link a {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-footer .homepage .email-link:hover {
-  color: var(--brand-color);
-}
-
-footer .homepage .social-links a {
-  margin: 0 20px;
-  color: var(--brand-color);
-  background: var(--primary-color);
-  padding: 10px 15px;
-  border-radius: 50%;
-  font-size: 18px;
-  transition: all 100ms ease-in-out;
-}
-
-footer .homepage .social-links a:hover {
-  color: white;
-  background: var(--brand-color);
-}
-
-footer .homepage .btn-branding {
-  background: var(--brand-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 20px;
-  margin-top: 10px;
-  line-height: 33px;
-  padding: 11px 11px 5px 11px;
-  margin-bottom: 42px;
-  
-}
-
-footer .homepage .contact-box {
-  background: var(--primary-color);
-  padding: 5px 95px;
-  margin-top: -20px;
-  border-radius: 20px;
-}
-
-footer .homepage .contact-box p {
+footer .contact .contact-box p {
   margin: 0;
   text-align: center;
 }
