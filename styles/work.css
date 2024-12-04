@@ -191,13 +191,13 @@ nav li.active a {
 
 
 footer .work {
-  margin: -20px 0;
-  margin-bottom: 25px;
+  margin: 40px 0;
+  margin-bottom: -35px;
 }
 
 footer .work h3 {
   text-align: center;
-  margin-top: 18px;
+  margin-top: 16px;
 }
 
 footer .work .email-link a {
@@ -243,7 +243,7 @@ footer .work .btn-branding {
 footer .work .contact-box {
   background: var(--primary-color);
   padding: 5px 95px;
-  margin-top: -20px;
+  margin-top: 35px;
   border-radius: 20px;
 }
 
